@@ -32,7 +32,9 @@ int main() {
     double num5 = 3.14;
     float num6 = 5.0F;
     long double num7 = 6.78L;
-
+    
+    int NumberOne = 5;
+    int Result;
     printf("num1 = %f\n", num1);
     printf("num2 = %lld\n", num2);
     printf("num3 = %u\n", num3);
@@ -40,6 +42,18 @@ int main() {
     printf("num5 = %f\n", num5);
     printf("num6 = %f\n", num6);
     printf("num7 = %Lf\n", num7); 
+
+    Result = NumberOne++; // Post Increment
+    printf("Result after post-increment: %d\n", Result);
+
+    Result = ++NumberOne; // Pre Increment
+    printf("Result after pre-increment: %d\n", Result);
+
+    Result = NumberOne--; // Post Decrement
+    printf("Result after post-decrement: %d\n", Result);
+
+    Result = --NumberOne; // Pre Decrement
+    printf("Result after pre-decrement: %d\n", Result);
 
     return 0;
 }
