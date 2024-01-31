@@ -30,5 +30,19 @@ int main()
     printf("var1 = %d\n", var_2); // Use %d for constants
     // var_1 = 5; // This line will result in a compilation error
     printf("var1 = %i\n", var_1); // Use %i for constants
+
+
+        /* short is signed by default -> Max positive value is 32,767 */
+    short NumberOne = -31981;
+    printf("NumberOne = %hi\n", NumberOne); /* Print NumberOne = -31981 */
+
+    /* Modify the short data type to be unsigned */
+    unsigned short NumberTwo = 33555;
+    printf("NumberTwo = %hu\n", NumberTwo); /* Print NumberTwo = 33555 */
+
+    /* NumberThree will not accept any negative value */
+    unsigned short NumberThree = -20;
+    printf("NumberThree = %hu\n", NumberThree); /* Print NumberThree = 65516 */
+    
     return 0;
 }
