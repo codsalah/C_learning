@@ -52,16 +52,11 @@ int main()
         printf("Fan is off \n");
     }
 
+    // Prompt user to enter Motor_Speed value
+    printf("Enter Motor_Speed Value : ");
+    scanf("%i", &Motor_Speed);
+
     // Check Motor_Speed conditions and print corresponding messages
-    /*
-        Motor_Speed > 20 -> print Hello_1
-        Motor_Speed > 40 -> print Hello_2
-        Motor_Speed > 50 -> print Hello_3
-        Motor_Speed > 60 -> print Hello_4
-
-        Motor_Speed = 21
-
-    */
     if(Motor_Speed > 20){
         printf("Hello_1 \n");
     }
