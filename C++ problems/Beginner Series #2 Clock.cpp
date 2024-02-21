@@ -4,3 +4,4 @@ int past(int h, int m, int s) {
     int oneHour = 60 * oneMinute;
     return (h * oneHour) + (m * oneMinute) + (s * oneSecond);
 }
+//s
