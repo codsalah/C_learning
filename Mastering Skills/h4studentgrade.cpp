@@ -21,5 +21,5 @@ int main() {
     cout << "\nStudent grade in math\n";
     cout << s1name <<" (with id " << s1id<< ") got grade: " << s1grade << "\n" ;    
     cout << s2name <<" (with id " << s2id<< ") got grade: " << s2grade << "\n" ;
-    cout << "average grade is " << (s1grade + s2grade) / 2;    
+    cout << "average grade is " << (s1grade + s2grade) / 2.0;    
 }
