@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "vector": "cpp"
+        "COMMIT_EDITMSG": "bat",
+        "vector": "cpp",
+        "iostream": "cpp"
     }
 }
