@@ -3,11 +3,11 @@ using namespace std;
 
 int main() 
 {
-    int num,x = 1;
-    cin >> num;
-    while(num >= x)
+    int row,x = 1;
+    cin >> row;
+    while(row >= x)
     {
-        int count = num;
+        int count = row;
         while(x <= count)
         {
             cout << "*";
