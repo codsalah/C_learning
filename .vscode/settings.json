@@ -3,6 +3,8 @@
         "COMMIT_EDITMSG": "bat",
         "vector": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "atomic": "cpp",
+        "memory": "cpp"
     }
 }
