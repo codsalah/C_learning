@@ -3,13 +3,21 @@ using namespace std;
 
 int main() 
 {
-    int row;
+    int N;
+    cin >> N;
+    int spaces = row -1;
     int counter = 1;
-    cin >> row;
     while(counter <= row)
     {
+        while(spaces > 0)
+        {
+            cout << " ";
+            spaces--;
+        }
+        // cout << "*";
+
         cout << "*";
         counter++;
-        while (counter > row)
     }
+
 }
