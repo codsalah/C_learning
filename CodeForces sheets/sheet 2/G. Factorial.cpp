@@ -4,15 +4,15 @@ using namespace std;
 int main()
 {
     int t, n;
-    cin >>t;
-    for(int i =1 ;i<=t ;i++ )
+    cin >> t;
+    for(int j = 1; j <= t; j++)
     {
         //take n each time 
         cin >> n;
         long long fact = 1;
-        for(int i=1;i<=n ; i++)
+        for(int i = 1; i <= n; i++)
         {
-            fact = fact*i;
+            fact *= i;
         }
         cout << fact << endl;
     }
