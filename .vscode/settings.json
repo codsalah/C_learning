@@ -1,13 +1,4 @@
 {
-  "files.associations": {
-    "COMMIT_EDITMSG": "bat",
-    "vector": "cpp",
-    "iostream": "cpp",
-    "ostream": "cpp",
-    "atomic": "cpp",
-    "memory": "cpp",
-    "cmath": "cpp"
-  },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
