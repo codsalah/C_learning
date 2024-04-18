@@ -53,8 +53,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "d:/github repos/C_learning/CodeForces sheets/sheet 2",
+      "program": "d:/github repos/C_learning/CodeForces sheets/sheet 2/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
